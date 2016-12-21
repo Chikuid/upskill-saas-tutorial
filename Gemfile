@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
-#Hirb gem for seeing database in console
+# Hirb gem for seeing database in console
 gem 'hirb', '0.7.3'
+# Devise gem for user authentication
+gem 'devise', '4.2.0'
 # Use Puma as the app server
 gem 'puma', '3.4.0'
 # Use SCSS for stylesheets
